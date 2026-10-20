@@ -1,0 +1,105 @@
+h1 {
+  background-color: #8AB5E2;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+a {
+  color: fff;
+}
+
+body {
+  background-color: #E2B0B0;
+}
+
+/* mengubah div menjadi tampilan kartu */
+div.kartu-profil {
+  background: #E2BCDF;
+  width: 250px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px #FFFFFF;
+  text-align: center;
+}
+
+div.kartu-profil img{
+  border-radius: 50%;
+  border: 3px solid #7D82B2;
+}
+
+.navigasi {
+  background-color: #8AB5E2;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.navigasi a {
+  text-decoration: none;
+}
+
+.navigasi .aktif {
+  font-weight: bold;
+  color: #EDFBBE;
+}
+
+div.kartu-kontak{
+  background-color: #E3FFAE;
+  width: 80%;
+  /* elemen rata tengah horizontal */
+  margin: 0 auto;
+  padding: 10px;
+  /* sudut tumpul kotak */
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+.tombol-medsos {
+  /* agar tombol melebar satu baris penuh */
+  display: block;
+  padding: 10px;
+  /* teks rata tengah */
+  text-align: center;
+  text-decoration: none;
+  margin: 8px;
+  /* sudut tumpul */
+  border-radius: 12px;
+}
+
+.wa {
+  background-color: #08FF3F;
+}
+
+.instagram {
+  background-color: #260606;
+}
+
+.galeri-container{
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* item galeri foto */
+.galeri-item{
+  width: 50%;
+  max-width: 180px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #A3C0F1;
+}
+
+.galeri-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.galeri-item p {
+  padding: 0px;
+  line-break: 0.5;
+}
